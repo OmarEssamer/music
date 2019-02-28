@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "?";
+const prefix = "K.";
 /////////////////////////
 ////////////////////////
 
@@ -349,7 +349,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`?play | Kingro Music`,"http://twitch.tv/Death Shop")
+client.user.setGame(`K.play | Kingro Music`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
