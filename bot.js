@@ -397,7 +397,7 @@ args.send({embed : embed});
 });
  
 client.on("message", message => {
-    var prefix = "=";//البرفكس
+    var prefix = ":";//البرفكس
 if(message.content.startsWith(prefix + "setout")) {
     let args = message.mentions.channels.first();
         if(!args) message.channel.send("** منشن روم . :x:**");
